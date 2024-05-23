@@ -1,0 +1,59 @@
+body {
+	background-color: hsla(40, 49%, 82%, 0.5);
+}
+.logo {
+	position: absolute;
+	left:0px;
+	top:20px;
+}
+.cart {
+	position: absolute;
+	right:30px;
+	top:85px;
+}
+nav {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 25px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+nav ul li a:hover {
+	background-color: #555;
+}
+h1 {
+	font-size: 50px;
+}
+h2{
+	font-size: 40px;
+}
+.p1{
+	font-size: 25px;
+}
+footer{
+	background-color: hsla(45, 66%, 38%, 0.6);
+	padding: 20px;
+}
+input {
+	width: 500px;
+	height: 30px;
+	padding: 6px 10px;
+}

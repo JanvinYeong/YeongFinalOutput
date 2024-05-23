@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Welcome to CupVerse</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+		<a href="index.html"><img class = "logo" src = "CupVerse_logo.png" width = 250 height = 250 alt = "To Index"></a>
+		<a href="cart.html"><img class = "cart" src = "cart.png" width = 125 height = 125 alt = "To cart"></a>
+		<header>
+			<h1 style = "text-align: center;">Welcome to CupVerse</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="products.html">Products</a></li> 
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<br>
+		<center>
+		<h2>Featured Product</h2>
+			<table>
+				<thead>
+					<tr>
+						<td class = "tablehead">Product</td>
+						<td class = "tablehead">Description</td>
+						<td class = "tablehead">Price</td>
+						<td class = "tablehead">Buy Now</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class = "tablebody"><img src = "mugs.jpg" width = 400 height = 300 alt = "Cupverse Mug"></td>
+						<td class = "tablebody">Simple, elegant, and a durable mug for everyday use. 
+						<br>Ideal for afternoon tea or a hearthy cup of morning 
+						<br>brewed coffee.</td>
+						<td class = "tablebody">$9.99</td>
+						<td class = "tablebody"><a href = "products.html"><button class="button">Add to Cart</button></a></td>
+					</tr>
+				</tbody>
+			</table>
+		<h2>Product Video</h2>
+		<video width = 800 height = 500 controls>
+			<source src = "mug_video_index.mp4" type = "video/mp4">
+		</video>
+		<h2>Product Audio</h2>
+		<audio controls>
+			<source src = "mug_audio_index.mp3" type = "audio/mpeg">
+		</audio>
+		</center>
+		<br>
+		<footer>
+		<h2>Contact Form</h2>
+		<p>Name:</p>
+		<textarea name="name" id="name" rows="1" cols="30"></textarea>
+		<br>
+		<p>Email:</p>
+		<textarea name="email" id="email" rows="1" cols="30"></textarea>
+		<br>
+		<p>Message:</p>
+		<textarea name="message" id="message" rows="4" cols="50"></textarea>
+		<br>
+		<br>
+		<button class="button">Submit</button>
+		<br>
+		</footer>
+	</body>
+</html>

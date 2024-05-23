@@ -1,0 +1,85 @@
+body {
+	background-color: hsla(40, 49%, 82%, 0.5);
+}
+.logo {
+	position: absolute;
+	left:0px;
+	top:20px;
+}
+.cart {
+	position: absolute;
+	right:30px;
+	top:85px;
+}
+nav {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 25px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+nav ul li a:hover {
+	background-color: #555;
+}
+h1 {
+	font-size: 50px;
+}
+td {
+	text-align: center;
+}
+.tablehead{
+	font-size: 30px;
+	padding: 20px;
+	font-weight: bold;
+}
+.tablebody{
+	font-size: 20px;
+}
+h2{
+	font-size: 40px;
+}
+footer{
+	background-color: hsla(45, 66%, 38%, 0.6);
+	padding: 20px;
+}
+textarea {
+  resize: none;
+}
+th, td{
+	font-size: 30px;
+	padding: 10px;
+}
+#emptyCartMessage{
+	font-size: 40px;
+	font-weight: bold;
+}
+.button {
+	background-color: #A0522D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
